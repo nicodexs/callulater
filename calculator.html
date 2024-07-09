@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" type="image/x-icon" href="./calculator.png">
+</head>
+<body>
+    <div id="calculator-container">
+        <div id="inputata">
+            <input id="input" type="text" readonly>
+        
+    
+        <div id="row">
+            <button onclick="clearbtn()" class="btn" id="clear">C</button>
+            <button onclick="appendOperator('%')" class="btn"id="percent">%</button>
+            <button onclick="dltbtn()"class="btn"id="delete">DEL</button>
+            <button onclick="appendOperator('/')"class="btn"id="divide">/</button>
+        
+        <div id="row"> 
+            <button onclick="numInput('7')" class="btn" id="numbers">7</button>
+            <button onclick="numInput('8')" class="btn" id="numbers">8</button>
+            <button onclick="numInput('9')" class="btn" id="numbers">9</button>
+            <button onclick="appendOperator('x')" class="btn" id="multiply">x</button>
+        
+        <div id="row">
+            <button onclick="numInput('4')"class="btn" id="numbers">4</button>
+            <button onclick="numInput('5')" class="btn" id="numbers">5</button>
+            <button onclick="numInput('6')" class="btn" id="numbers">6</button>
+            <button onclick="appendOperator('-')" class="btn" id="subtract">-</button>
+        
+        <div id="row">
+            <button onclick="numInput('1')" class="btn" id="numbers">1</button>
+            <button onclick="numInput('2')" class="btn" id="numbers">2</button>
+            <button onclick="numInput('3')" class="btn" id="numbers">3</button>
+            <button onclick="appendOperator('+')" class="btn" id="addition">+</button>   
+             
+        <div id="row">
+                <button onclick="numInput('0')" class="btn" id="zero">0</button>
+                <button onclick="appendDecimal('.')" class="btn" id="numbers">.</button>
+                <button  onclick="calculateResult()" class="btn" id="equal">=</button>
+             </div>
+            </div>
+            </div>
+            </div>
+        </div>
+            </div>
+
+   </div>
+   <script src="calculator.js">
+   
+
+   </script>
+</body>
+</html>
